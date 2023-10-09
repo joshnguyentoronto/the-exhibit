@@ -1,0 +1,39 @@
+.LoginPage {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+h1{
+    font-size: 55px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.LoginPage form button {
+    background-color: #0c6baf;
+}
+.LoginPage form button:hover {
+    background-color: #245880;
+}
+
+.account {
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+}
+
+.n-container {
+    display: flex;
+    gap: 15px;
+}
+
+.error-red {
+    color:red
+}

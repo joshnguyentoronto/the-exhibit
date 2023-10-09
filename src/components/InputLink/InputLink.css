@@ -1,0 +1,40 @@
+#input-link-each {
+    display: flex;
+    gap: 10px;
+    margin: 5px 0 0 0;
+}
+
+#input-link-each-input1 {
+    height: 35px;
+    width: 150px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 3px;
+}
+#input-link-each-input2 {
+    height: 35px;
+    width: 300px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 3px;
+}
+
+#link-name-id {
+    margin: 10px 0 15px 0;
+}
+#link-url-id {
+    margin: 10px 0 15px 0;
+}
+
+.input-link-each-del {
+    display: flex;
+    align-items: flex-end;
+}
+.input-link-each-del p {
+    display: flex;
+    margin: 0 0 4px 0;
+    cursor: pointer;
+
+}
+
+.input-link-each-del p:hover {
+    opacity: .8;
+}
