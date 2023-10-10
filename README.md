@@ -42,12 +42,12 @@ Interesting fact about THE EXHIBIT:
 ### Review:
 
 
-<img  alt="la" src="https://github.com/joshnguyentoronto/project-sharing-app/blob/master/public/images/1.png" />
-<img  alt="la" src="https://github.com/joshnguyentoronto/project-sharing-app/blob/master/public/images/2.png" />
-<img  alt="la" src="https://github.com/joshnguyentoronto/project-sharing-app/blob/master/public/images/3.png" />
-<img  alt="la" src="https://github.com/joshnguyentoronto/project-sharing-app/blob/master/public/images/4.png" />
-<img  alt="la" src="https://github.com/joshnguyentoronto/project-sharing-app/blob/master/public/images/5.png" />
-<img  alt="la" src="https://github.com/joshnguyentoronto/project-sharing-app/blob/master/public/images/6.png" />
+<img  alt="la" src="https://github.com/joshnguyentoronto/the-exhibit/blob/master/public/images/1.png" />
+<img  alt="la" src="https://github.com/joshnguyentoronto/the-exhibit/blob/master/public/images/2.png" />
+<img  alt="la" src="https://github.com/joshnguyentoronto/the-exhibit/blob/master/public/images/3.png" />
+<img  alt="la" src="https://github.com/joshnguyentoronto/the-exhibit/blob/master/public/images/4.png" />
+<img  alt="la" src="https://github.com/joshnguyentoronto/the-exhibit/blob/master/public/images/5.png" />
+<img  alt="la" src="https://github.com/joshnguyentoronto/the-exhibit/blob/master/public/images/6.png" />
 
 <br />
 
@@ -95,22 +95,7 @@ Interesting fact about THE EXHIBIT:
 
 ### Languages and Tools:
 
-<p>
-    <img alt="visualstudio" width="24px" height="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
-    Visual Studio Code
-</p>
-<p>
-    <img alt="git" width="24px" height="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-    Version control Git
-</p>
-<p>
-    <img alt="github" width="24px" height="24px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
-    GitHub
-</p>
-<p>
-    <img alt="terminal" width="24px" height="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
-    Zsh
-</p>
+
 <p>
     <img alt="html" width="24px" height="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
     HTML 5
@@ -128,6 +113,10 @@ Interesting fact about THE EXHIBIT:
     React
 </p>
 <p>
+    <img alt="react" width="26px" height="26px" src="https://github.com/joshnguyentoronto/the-exhibit/blob/master/public/images/next.png" />
+    Next.js
+</p>
+<p>
     <img alt="nodejs" width="26px" height="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
     Node.js
 </p>
@@ -141,15 +130,11 @@ Interesting fact about THE EXHIBIT:
 </p>
 <p>
     <img alt="aws3" width="26px" height="26px" src="https://github.com/joshnguyentoronto/project-sharing-app/blob/master/public/images/aws3.png" />
-    Amazon Web Service 3
+    Amazon Web Service - AWS3
 </p>
 <p>
-    <img alt="socket.io" width="26px" height="26px" src="https://github.com/joshnguyentoronto/project-sharing-app/blob/master/public/images/socket.png" />
-    Socket.io
-</p>
-<p>
-    <img alt="heroku" width="26px" height="26px" src="https://github.com/joshnguyentoronto/project-sharing-app/blob/master/public/images/heroku.png" />
-    Heroku
+    <img alt="github" width="24px" height="24px" src="https://github.com/joshnguyentoronto/the-exhibit/blob/master/public/images/github.png" />
+    Git + GitHub
 </p>
 
 
