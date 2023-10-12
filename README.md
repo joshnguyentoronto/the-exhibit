@@ -11,8 +11,19 @@
 ---
 
 ### Web link:
-
+This link will not work until I complete and redeploy the app again.
 <a href="https://the-exhibit.herokuapp.com/" target="_blank">THE EXHIBIT</a>
+
+<br />
+
+---
+### Disclaimer:
+This project is based on the original group project. However, the original project has many bug, not optimized and was discontinued due to past configuration. That's why I remake this project with new framework and redeploy it with new technology to make it available again.
+&nbsp;\
+List of new things in this project:
+1. Next.js (new React framework)
+2. NextAuth.js (include Google Auth and other like Github Auth)
+3. Discontinue of messaging feature
 
 <br />
 
@@ -68,25 +79,14 @@ Interesting fact about THE EXHIBIT:
 
 ---
 
-### Meet the Developer:
-| Name | Roles |
-| ---- | ----- |
-| Lu Ye             | Task Manager, Styling, Wireframe, Routing, Component, Functionality, Authorization,  |
-| Josh Nguyen       | GitHub Manager, Documenter, Images and Logo, Styling, Wireframe, Routing, Component, Functionality, Authorization,  |
-| Janusshan Paramasivam | Database Manager, Authentication, Styling, Wireframe, Routing, Component, Functionality, Authorization,  |
-
-
-<br />
-
----
-
-### Meet the Designer:
-
-| Name | Roles |
-| ---- | ----- |
-| Paula Abejero | Wireframe, User Flow, Style guild, Prototype, Competitive analysis |
-| Linette Yang | Wireframe, User Flow, Style guild, Prototype, Competitive analysis |
-| Paulo Saromo | Wireframe, User Flow, Style guild, Prototype, Competitive analysis |
+### Things that I worked on:
+1. Database setup
+2. Authentication & authorization
+3. All functionality with new Next.js v13 framework
+4. Pages, Components, API, routing
+5. Images, Logo, Styling anything new
+6. Fix all bug from original project
+7. Make the app faster and more efficient with Next.js
 
 
 <br />
@@ -215,11 +215,42 @@ Distributed under the MIT License.
 ### Contact:
 
 Developer:\
-[Lu Ye](https://www.linkedin.com/in/lu-ye-b17192109/)\
 [Josh Nguyen](https://joshnguyentoronto.com/)\
-[Janusshan Paramasivam](https://www.linkedin.com/in/janusshan-param/)
 
-Designer:\
-[Linette Yang](https://www.linkedin.com/in/linetteyang/)\
-[Paula Abejero](https://www.linkedin.com/in/paulaabejero/)\
-[Paulo Saromo](https://www.linkedin.com/in/paulosaromo/)
+
+---
+
+### To Do List:
+1. Revalidate session after redirect after login
+2. Login with Google and Github don't work properly right now and need fix
+3. Easy tasks:
+    - Policy page
+    - Term page
+    - About page
+4. Profile page
+    - See profile page
+    - Edit profile page
+        + Handle save profile image to AWS properly
+    - See other's profile page
+5. Interact with Projects:
+    - Search for projects function
+    - Filter out projects function
+    - Handle click to see the project detail
+    - Update viewcount
+    - Like project
+        + Increment and Decrement correctly base on user
+        + Update all data (project and user) correctly
+        + add project to like list in profile page
+    - Save project
+        + Increment and Decrement correctly base on user
+        + Update all data (project and user) correctly
+        + add project to save list in profile page
+    - Comment on project
+        + Update to datebase correctly
+        + Update to UI to see comment
+        + Also handle like function of comment and update to database
+6. Create/Edit Project page
+    - Handle save image to AWS properly
+
+To Be Add More
+

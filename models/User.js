@@ -1,4 +1,5 @@
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
+import mongoose from 'mongoose'
 const Schema = mongoose.Schema;
 
 const userLinkSchema = new Schema({
@@ -47,5 +48,6 @@ const userSchema = new Schema({
   }
 });
 
-let UserModel = mongoose.model('User', userSchema);
-module.exports = UserModel;
+// let UserModel = mongoose.model('User', userSchema);
+// module.exports = UserModel;
+export default mongoose.models.User || mongoose.model('User', userSchema);

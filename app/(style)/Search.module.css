@@ -1,0 +1,120 @@
+.main {
+
+}
+
+
+.h1 {
+    display: grid;
+    place-content: center;
+}
+
+.h1 h1 {
+    font-size: 48px;
+    letter-spacing: 10%;
+    font-family: Arial;
+    margin: 0 0 30px 0;
+}
+
+.searchbox {
+    display: grid;
+    place-content: center;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.searchbox form {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+}
+.searchbox form button {
+    border: none;
+    background-color: transparent;
+    margin-left: -50px;
+}
+
+.filtersearchbar {
+    background-color: transparent;
+    border: 2px solid #29465B;
+    border-radius: 10px;
+    max-width: 1089px;
+    min-width: 300px;
+    width: 100%;
+    line-height: 30px;
+    height: 50px;
+    margin: 24px 0;
+    font-size: 25px;
+    padding: 0 10px;
+    color: #29465B;
+}
+.filtersearchbar:focus {
+    outline: none !important;
+    border: 2px solid #29465B;
+    box-shadow: 0 0 5px #3f6d8d;
+}
+
+.filterflags {
+    display: flex;
+    padding: 0 100px;
+    width: 100vw;
+    justify-content: center;
+
+}
+.filterflagscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1089px;
+    flex-wrap: wrap;
+}
+.filterflagsfilter {
+    width: 199px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.535);
+    color: #29465B;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 0 0 20px ;
+    border: 2px solid #29465B;
+    border-radius: 10px;
+    text-align: left;
+}
+.filterflagsfilter:focus {
+    border: 2px solid #29465B;
+}
+
+.flagbtn {
+    background-color: rgba(255, 255, 255, 0.535);
+    border-radius: 10px;
+    width: 199px;
+    height: 50px;
+    font-weight: 600;
+    border: 2px solid #29465B;
+    display: inline;
+    margin: 0 0 20px 0;
+    color: #29465B;
+    font-size: 18px;
+}
+.flagbtn:hover {
+    background-color: #29465B;
+    color: white;
+}
+.flagbtnblue {
+    background-color: #29465B;
+    border-radius: 10px;
+    width: 199px;
+    height: 50px;
+    font-weight: 600;
+    border: 2px solid #29465B;
+    display: inline;
+    margin: 0 0 20px 0;
+    color: white;
+    font-size: 18px;
+}
+.flagbtnblue:hover {
+    background-color: rgba(255, 255, 255, 0.535);
+    color: #29465B;
+}
