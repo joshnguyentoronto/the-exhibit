@@ -64,8 +64,8 @@ a {
 }
 
 .headerlinkcontainer {
-    min-width: 400px;
-    max-width: 450px;
+    min-width: 200px;
+    max-width: 250px;
     width: 40%;
     display: flex;
     justify-content: space-between;
@@ -89,8 +89,9 @@ a {
     border: none;
     border-radius: 50px;
     color: #29465B;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 14px;
+    font: Arial;
     text-decoration: none;
     display: grid;
     place-content: center;
@@ -98,6 +99,25 @@ a {
 .headerlinkupload:hover {
     background-color: #29465B;
     color: white;
+}
+
+
+.headerProfile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: grid;
+    place-content: center;
+}
+.headerProfile:hover {
+    background-color: #29465B;
+}
+.headerProfile img {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin: auto;
 }
 
 .headerlinklog {
@@ -110,6 +130,7 @@ a {
     color: #29465B;
     font-weight: 600;
     font-size: 14px;
+    font: Arial;
     text-decoration: none;
     display: grid;
     place-content: center;

@@ -6,8 +6,8 @@ import { useSession } from 'next-auth/react'
 import { redirect, useRouter } from 'next/navigation'
 
 import CredentialsProvider from 'next-auth/providers/credentials'
-import GoogleProvider from 'next-auth/providers/credentials'
-import GithubProvider from 'next-auth/providers/credentials'
+import GoogleProvider from 'next-auth/providers/google'
+import GithubProvider from 'next-auth/providers/github'
 
 interface User {
   name: string;
@@ -26,6 +26,7 @@ export const authConfig: NextAuthOptions = {
       async authorize(credentials) {
         if (!credentials || !credentials.username || !credentials.password)
           return null;
+        await dbconnect()
         const dbUser = await UserModel.findOne({username: credentials.username})
         // Password is not encrypted right now
         // Insert encryption in here

@@ -1,5 +1,7 @@
 "use client";
 
+import style from '../(style)/Auth.module.css'
+
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -34,6 +36,7 @@ export function CredentialsForm(props: CredentialsFormProps) {
     return (
         <form
         onSubmit={handleSubmit}
+        className={style.form}
         >
         {error && (
             <span>
@@ -45,6 +48,7 @@ export function CredentialsForm(props: CredentialsFormProps) {
             name="username"
             placeholder="username"
             required
+            className={style.forminput}
         />
 
         <input
@@ -52,6 +56,7 @@ export function CredentialsForm(props: CredentialsFormProps) {
             name="password"
             placeholder="Password"
             required
+            className={style.forminput}
         />
 
         <button

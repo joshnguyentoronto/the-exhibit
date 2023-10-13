@@ -106,6 +106,10 @@ Interesting fact about THE EXHIBIT:
 </p>
 <p>
     <img alt="javascript" width="24px" height="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
+    TypeScript
+</p>
+<p>
+    <img alt="javascript" width="24px" height="24px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
     JavaScript
 </p>
 <p>
@@ -136,7 +140,10 @@ Interesting fact about THE EXHIBIT:
     <img alt="github" width="24px" height="24px" src="https://github.com/joshnguyentoronto/the-exhibit/blob/master/public/images/github.png" />
     Git + GitHub
 </p>
-
+<p>
+    <img alt="react" width="26px" height="26px" src="https://github.com/joshnguyentoronto/the-exhibit/blob/master/public/images/next.png" />
+    NextAuth - Google Authentication - Github Authentication
+</p>
 
 <br />
 
@@ -222,17 +229,16 @@ Developer:\
 
 ### To Do List:
 1. Revalidate session after redirect after login
-2. Login with Google and Github don't work properly right now and need fix
-3. Easy tasks:
+2. Easy tasks:
     - Policy page
     - Term page
     - About page
-4. Profile page
+3. Profile page
     - See profile page
     - Edit profile page
         + Handle save profile image to AWS properly
     - See other's profile page
-5. Interact with Projects:
+4. Interact with Projects:
     - Search for projects function
     - Filter out projects function
     - Handle click to see the project detail
@@ -249,7 +255,7 @@ Developer:\
         + Update to datebase correctly
         + Update to UI to see comment
         + Also handle like function of comment and update to database
-6. Create/Edit Project page
+5. Create/Edit Project page
     - Handle save image to AWS properly
 
 To Be Add More

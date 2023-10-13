@@ -1,6 +1,8 @@
 "use client";
 
+import authStyle from '../(style)/Auth.module.css'
 import headStyle from '../(style)/Header.module.css'
+
 import Image from "next/image";
 import googleLogo from "../../public/images/google.png";
 import githubLogo from "../../public/images/github.png";
@@ -22,11 +24,9 @@ export function GoogleSignInButton() {
         signIn("google");
     };
     return (
-        <button
-        onClick={handleClick}
-        >
-        <Image src={googleLogo} alt="Google Logo" width={20} height={20} />
-        <span>Continue with Google</span>
+        <button onClick={handleClick} className={authStyle.authbutton}>
+            <Image src={googleLogo} alt="Google Logo" width={20} height={20} />
+            <p>&nbsp;&nbsp; Continue with Google</p>
         </button>
     );
 }
@@ -38,9 +38,10 @@ export function GithubSignInButton() {
     return (
         <button
         onClick={handleClick}
+        className={authStyle.authbutton}
         >
         <Image src={githubLogo} alt="Github Logo" width={20} height={20} />
-        <span>Continue with Github</span>
+        <p>&nbsp;&nbsp; Continue with Github</p>
         </button>
     );
 }

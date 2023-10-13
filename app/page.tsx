@@ -5,8 +5,10 @@ import { notFound } from 'next/navigation'
 import { authConfig, loginIsRequiredServer } from "../config/auth";
 import { getServerSession } from "next-auth";
 import { redirect } from "next/navigation";
+import Link from 'next/link'
 
-
+import headStyle from './(style)/Header.module.css'
+import projectStyle from './(style)/Project.module.css'
 import PCLStyles from './(style)/ProjectCardList.module.css'
 import PCStyles from './(style)/ProjectCard.module.css'
 import searchStyle from './(style)/Search.module.css'
@@ -68,7 +70,6 @@ export default async function HomePage() {
     if (!session) {
         return redirect('/login')
     }
-    // console.log(session)
 
 
 
@@ -107,10 +108,33 @@ export default async function HomePage() {
                     </div>
                 </div>
             </div>
-            <div className={PCLStyles.list}>
+            <div  className={PCLStyles.list}>
                 {projectslist?.map((project) => {
                     return <ProjectCard key={project._id} project={project}></ProjectCard>
                 })}
+            </div>
+            <div className={projectStyle.main}>
+                <div className={projectStyle.header}>
+                    <div className={projectStyle.headermain}>
+                        <div className={projectStyle.headermainimg}>{ session && <Link href="/profile" className={headStyle.headerProfile} ><img src={session?.user?.image}></img></Link>}</div>
+                        <div className={projectStyle.headermaintitle}>
+                            <h3>author name</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className={projectStyle.body}>
+                    <div className={projectStyle.right}></div>
+                    <div className={projectStyle.middle}>
+                        <h1>Project name</h1>
+                        <img className={projectStyle.middleimg} src="/images/project_test.png" alt="project image" />
+                    </div>
+                    <div className={projectStyle.left}>
+                        <div>{ session && <Link href="/profile" className={headStyle.headerProfile} ><img src={session?.user?.image}></img></Link>}</div>
+                        <div>{ session && <Link href="/profile" className={headStyle.headerProfile} ><img src={session?.user?.image}></img></Link>}</div>
+                        <div>{ session && <Link href="/profile" className={headStyle.headerProfile} ><img src={session?.user?.image}></img></Link>}</div>
+                        <div>{ session && <Link href="/profile" className={headStyle.headerProfile} ><img src={session?.user?.image}></img></Link>}</div>
+                    </div>
+                </div>
             </div>
         </div>
     )

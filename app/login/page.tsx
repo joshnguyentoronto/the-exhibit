@@ -31,17 +31,14 @@ export default async function Login() {
         <div className={style.LoginPage}>
             <h1>THE EXHIBIT</h1>
             <div className={style.LoginForm}>
-                <div >
-                    <div >
-                        <h1>Sign In</h1>
-                        <GoogleSignInButton />
-                        <GithubSignInButton />
-                        <span>
-                            Or
-                        </span>
-                        {/* <CredentialsSignInButton /> */}
-                        <CredentialsForm />
-                    </div>
+                <h2>Sign In</h2>
+                <CredentialsForm />
+                {/* <br /> */}
+                <p>Or</p>
+                {/* <br /> */}
+                <div className={style.authForm}>
+                    <GoogleSignInButton />
+                    <GithubSignInButton />
                 </div>
             </div>
         </div>
